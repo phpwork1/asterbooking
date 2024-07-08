@@ -1,9 +1,9 @@
 FROM node:20.15
 
-ARG AIA_DIRECT_PAT
-
 WORKDIR /usr/app
+
+COPY . .
 
 RUN npm ci
 
-CMD ["pm2 start book.js"]
+CMD ["sh", "-c", "pm2 start book.js"]
