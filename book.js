@@ -252,10 +252,10 @@ const bookCourt = async (bookingDate, {
 (async () => {
     let usedAccount = [
         {
-            id: 4,
-            useId: 12,
+            id: 8,
+            useId: 14,
             court: constant.BADMINTON_2,
-            bookingDate: '2024-07-08'
+            bookingDate: '2024-07-16'
         },
         {
             id: 7,
@@ -277,18 +277,11 @@ const bookCourt = async (bookingDate, {
         },
     ];
     let freeAccount = [
-        
-        {
-            id: 8,
-            useId: 14,
-            court: constant.BADMINTON_2
-        },
         {
             id: 5,
             useId: 13,
             court: constant.BADMINTON_1
         },
-        
         {
             id: 1,
             useId: 11,
@@ -299,6 +292,11 @@ const bookCourt = async (bookingDate, {
             id: 3,
             useId: 12,
             court: constant.BADMINTON_1
+        },
+        {
+            id: 4,
+            useId: 12,
+            court: constant.BADMINTON_2
         }
     ];
 

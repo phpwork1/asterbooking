@@ -6,4 +6,4 @@ COPY . .
 
 RUN npm ci
 
-CMD ["sh", "-c", "pm2 start book.js"]
+CMD ["./node_modules/.bin/pm2 start book.js"]
